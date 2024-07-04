@@ -1,0 +1,68 @@
+body{
+    margin: 20px;
+    padding: 30px;
+}
+.container{
+    text-align: center;
+    position: relative;
+    top: 10vh;
+}
+p{
+    font-family: tahoma;
+    font-size: 15px;
+}
+h3{
+    font-family: Arial bold;
+    font-size: 25px;
+    padding-top:0% ;
+}
+.logo{
+    background-color: #2e0031;
+    position: absolute;
+    left: 10%;
+    height: 10vh;
+    width: 18vw;
+}
+.ps{
+    font-size: 23px;
+    font-style: normal;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid black;
+   margin-top: 80px;
+}
+tr{
+    display: flex;
+}
+td{
+    flex: 1;
+    padding-left: 8px;
+    text-align: left;
+    border: none;
+}
+.separator{
+    border-left: 1px solid black;
+    width: 5px;
+    flex: 0 0 auto;
+}
+.table1{
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+.tr1{
+    border-bottom:1px solid black ;
+}
+.netpay{
+    align-items: left;
+}
+hr{
+    color: #000;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.last{
+    margin-left: 500px;
+}
